@@ -1,0 +1,23 @@
+package com.automation.pages;
+
+import com.automation.utility.Utility;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ProductPage extends Utility {
+    public ProductPage() {
+        PageFactory.initElements(driver, this);
+    }
+
+    private static final Logger log = LogManager.getLogger(ProductPage.class.getName());
+//    @CacheLookup
+//    @FindBy(xpath = "")
+//    WebElement ;
+
+
+
+}
